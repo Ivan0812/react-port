@@ -86,7 +86,7 @@ a {
     align-items: center;
     align-content: space-around;
     justify-items: center;
-    height: 75vh;
+    height: 70vh;
     opacity: 0;
     transition: opacity 3s ease-in-out;
  } 
@@ -307,7 +307,7 @@ footer {
     background: linear-gradient(-45deg, var(--soft-gold), var(--silver), var(--onix));
     width: 100%;
     color: var(--black);
-    height: 10vh;
+    height: 16vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -374,18 +374,13 @@ footer {
     width: 2em;
     height: 2em;
     border-radius: 50%;
-    margin-left: 2em;
+    margin: 0.5em;
     text-align: center;
     align-items: center;
 }
 
 .download {
-    font-size: 18px;
-    font-weight: 600;
-    color: var(--soft-gold);
-    text-shadow: 0 8px 16px #000000a4;
-    margin-left: 1em;
-
+    display: none;
 }
 
 .submit {
@@ -651,6 +646,21 @@ fieldset {
         height: 9vh;
         grid-column: 1 / span 3;
     }
+
+    .cv {
+        margin-left: 2em;
+    }
+
+    .download {
+        display: block;
+        font-size: 18px;
+        font-weight: 600;
+        color: var(--soft-gold);
+        text-shadow: 0 8px 16px #000000a4;
+        margin-left: 1em;
+    
+    }
+    
 
     .contact-button {
         margin-left: 1em;
