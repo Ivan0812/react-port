@@ -715,4 +715,12 @@ fieldset {
     .projects {
         height: auto;
     }
+
+    .story {
+       font-size: 10px;
+   }
+
+    .footer {
+        height: 11vh;
+    }
 }
