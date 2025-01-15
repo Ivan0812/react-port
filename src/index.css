@@ -572,7 +572,7 @@ fieldset {
 
     #about-me {
         display: grid;
-        height: 84vh;
+        height: 116vh;
         grid-column: 1 / span 3;
         justify-items: center;
     }
@@ -588,7 +588,7 @@ fieldset {
     .story {
         width: 80%;
         font-size: 22px;
-        line-height: 28px;
+        line-height: 22px;
         margin: 3em;
         grid-row: 1;
         grid-column: 3 / span 1;
@@ -682,6 +682,10 @@ fieldset {
     .my-img {
         width: 500px;
         height: auto;  
+    }
+
+    #about-me {
+        height: 84vh;
     }
 
     .story-title {
