@@ -5,11 +5,13 @@ import Footer from './Footer';
 
 function Profile() {
   const profileRef = useRef(null);
+  const [isLoaded, setIsLoaded] = useState(false);
+
   useEffect(() => {
-    if (profileRef.current) {
+    if (isLoaded && profileRef.current) {
       profileRef.current.classList.add('fade-in');
     }
-    }, []);
+  }, [isLoaded]);
 
   return (
     <>
@@ -18,7 +20,7 @@ function Profile() {
         <h1>Hi! My name is Ivan Kovacevic.</h1>
         <h2>Your Web Developer!!</h2>
       </div>
-     <img className="my-img" src={profileImage} alt="Ivan K" />
+     <img className="my-img" src={profileImage} alt="Ivan K"  onLoad={() => setIsLoaded(true)} />
    
     <ul className="contact-list">
           <li>
