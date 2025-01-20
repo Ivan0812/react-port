@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEffect, useRef } from 'react';
-import profileImage from '../assets/images/IMG_7341.WebP';
+import profileImage from '../assets/images/IMG_7341.webp';
 import Footer from './Footer';
 
 function Profile() {
