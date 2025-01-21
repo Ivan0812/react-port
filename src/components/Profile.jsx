@@ -20,9 +20,10 @@ function Profile() {
         <h1>Hi! My name is Ivan Kovacevic.</h1>
         <h2>Your Web Developer!!</h2>
       </div>
-     <img className="my-img" 
+     <img className={`my-img ${isImageLoaded ? 'loaded' : ''}`}
           src={profileImage} 
           alt="Ivan K" 
+          loading="lazy"
           onLoad={() => setIsImageLoaded(true)} 
           />
    
