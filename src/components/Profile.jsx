@@ -1,15 +1,17 @@
 import React from 'react';
-import { useEffect, useRef } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import profileImage from '../assets/images/IMG_7341.webp';
 import Footer from './Footer';
 
 function Profile() {
   const profileRef = useRef(null);
+  const [isImageLoaded, setIsImageLoaded] = useState(false);
+
   useEffect(() => {
-    if (profileRef.current) {
+    if (isImageLoaded && profileRef.current) {
       profileRef.current.classList.add('fade-in');
     }
-    }, []);
+  }, [isImageLoaded]);
 
   return (
     <>
@@ -18,7 +20,11 @@ function Profile() {
         <h1>Hi! My name is Ivan Kovacevic.</h1>
         <h2>Your Web Developer!!</h2>
       </div>
-     <img className="my-img" src={profileImage} alt="Ivan K" />
+     <img className="my-img" 
+          src={profileImage} 
+          alt="Ivan K" 
+          onLoad={() => setIsImageLoaded(true)} 
+          />
    
     <ul className="contact-list">
           <li>
