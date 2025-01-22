@@ -60,7 +60,7 @@ a {
     overflow: hidden;
     text-decoration: none;
     font-weight:bold;
-    width: 70%;
+    width: 100%;
     justify-content: center;
 }
 
@@ -522,6 +522,7 @@ fieldset {
         max-width: 100%;
         flex-direction: row;
         justify-content: flex-end;
+        margin-right: 1em;
     }
 
     .navlist {
@@ -732,6 +733,6 @@ fieldset {
    }
 
     .footer {
-        height: 12vh;
+        height: 13vh;
     }
 }
