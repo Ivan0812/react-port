@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEffect, useState, useRef } from 'react';
-import profileImage from '../assets/images/IMG_7341.jpeg';
+import profileImage from '../assets/images/IMG_7341.jpg';
 import Footer from './Footer';
 
 function Profile() {
