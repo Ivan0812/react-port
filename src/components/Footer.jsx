@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import ContactModal from './ContactModal';
 import Cv from './Cv';
@@ -18,7 +19,7 @@ const Footer = () => {
          <Cv />
          <span className='download'> &#8592; Download CV</span>
       </div>
-      <span className="rights">"created by I. Kovacevic"</span>
+      <span className="rights"> ``created by I. Kovacevic`` </span>
     </footer>
   );
 };

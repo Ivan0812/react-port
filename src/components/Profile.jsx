@@ -1,5 +1,6 @@
-import React from 'react';
-import { useEffect, useState, useRef } from 'react';
+/* eslint-disable no-unused-vars */
+import React, { useEffect, useState, useRef } from 'react';
+/* eslint-enable no-unused-vars */
 import profileImage from '../assets/images/IMG_7341.jpg';
 import Footer from './Footer';
 
@@ -15,19 +16,19 @@ function Profile() {
 
   return (
     <>
-    <div className="profile" ref={profileRef}>
-      <div className="title">
-        <h1>Hi! My name is Ivan Kovacevic.</h1>
-        <h2>Your Web Developer!!</h2>
-      </div>
-     <img className={`my-img ${isImageLoaded ? 'loaded' : ''}`}
-          src={profileImage} 
-          alt="Ivan K" 
+      <div className="profile" ref={profileRef}>
+        <div className="title">
+          <h1>Hi! My name is Ivan Kovacevic.</h1>
+          <h2>Your Web Developer!!</h2>
+        </div>
+        <img
+          className={`my-img ${isImageLoaded ? 'loaded' : ''}`}
+          src={profileImage}
+          alt="Ivan K"
           loading="lazy"
-          onLoad={() => setIsImageLoaded(true)} 
-          />
-   
-    <ul className="contact-list">
+          onLoad={() => setIsImageLoaded(true)}
+        />
+        <ul className="contact-list">
           <li>
             <svg
               className="contact-icon tel"
@@ -55,7 +56,7 @@ function Profile() {
             +491605649998
           </li>
           <li className='social'>
-            <a href="https://www.linkedin.com/in/ivan-kovacevic-a2bbb2186/" target="_blank" aria-label="View LnkedIn Profile" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/ivan-kovacevic-a2bbb2186/" target="_blank" aria-label="View LinkedIn Profile" rel="noopener noreferrer">
               <svg
                 className="contact-icon link"
                 xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +68,7 @@ function Profile() {
                 <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
               </svg>
             </a>
-            <a href="https://github.com/Ivan0812" target="_blank" aria-label="View GitHub Profile"  rel="noopener noreferrer">
+            <a href="https://github.com/Ivan0812" target="_blank" aria-label="View GitHub Profile" rel="noopener noreferrer">
               <svg
                 className="contact-icon link"
                 xmlns="http://www.w3.org/2000/svg"
@@ -80,9 +81,9 @@ function Profile() {
               </svg>
             </a>
           </li>
-        </ul> 
-        </div>
-    <Footer />
+        </ul>
+      </div>
+      <Footer />
     </>
   );
 }

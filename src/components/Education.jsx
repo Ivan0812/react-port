@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import Footer from './Footer';
 import Cert from '../assets/images/cert.jpg';

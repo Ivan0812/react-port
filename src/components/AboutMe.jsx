@@ -1,4 +1,6 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
+/* eslint-disable no-unused-vars */
 import Footer from './Footer';
 
 function AboutMe() {
@@ -30,7 +32,7 @@ function AboutMe() {
              Nights were spent honing his coding skills, weaving dreams into lines of code. His journey, from the serene 
              landscapes of Croatia to the dynamic streets of Germany,
               unfolded as a tale of love, family, and unwavering dedication. 
-              Ivan's nights of coding were not just a job but a manifestation of his dreams,
+              Ivan`s nights of coding were not just a job but a manifestation of his dreams,
                creating a narrative as captivating as the digital worlds he brought to life. In the heart of Germany, 
                Ivan continued to write his inspiring story—one where love, family, and a passion for web development converged
                 into a harmonious symphony.

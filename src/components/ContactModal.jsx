@@ -1,5 +1,7 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
-
+import PropTypes from "prop-types";
+/* eslint-disable no-unused-vars */
 function ContactModal({ closeModal }) {
   return (
     <div id="contactModal" className="modal">
@@ -54,5 +56,8 @@ function ContactModal({ closeModal }) {
     </div>
   );
 }
+ContactModal.propTypes = {
+  closeModal: PropTypes.func.isRequired,
+};
 
 export default ContactModal;
