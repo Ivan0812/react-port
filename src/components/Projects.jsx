@@ -50,7 +50,7 @@ function Projects() {
     return (
       <>
       <div className="projects">
-        <h2 className="project-title">These are some of the projects that I worked on</h2>
+        <h2 className="project-title typer">These are some of the projects that I worked on</h2>
         <div className="project-container">
           {projectData.map((project, index) => (
             <article key={index} className='project-item'>
