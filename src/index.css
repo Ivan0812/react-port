@@ -155,7 +155,7 @@ a {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    height: 100vh;
+    height: auto;
  }
 
 .storytitle-container {
@@ -221,33 +221,45 @@ a {
 
 .education {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-}
-
-.desc {
-    padding: 20px;
-    color: var(--white);
-    width: 90%;
-    border: solid 1px var(--emerland-green);
-    box-shadow: 0 8px 16px #000000a4;
-    border-radius: 7px 5px;
-   background: linear-gradient(-45deg, var(--soft-gold),  var(--silver), var(--soft-gold), var(--silver));
-   background-size: 400% 400%;
-   
-}
- 
-.cert {
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .cert-container {
+    border: 2px solid var(--emerland-green);
+    border-radius: 12px;
+    padding: 1rem;
+    background-color: var(--white);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .cert-container:hover {
+    transform: scale(1.02);
+  }
+  
+  .cert {
+    width: 80%;
     height: auto;
-    width: 90%;
-    box-shadow: 15px 13px 3px var(--emerland-green);
-    transition: transform 0.5s ease-in-out;
-}
+    border-radius: 8px;
+  }
+  
+  .cert-info {
+    margin-top: 0.75rem;
+  }
+  
+  .cert-info h3 {
+    font-size: 1.2rem;
+    color: var(--emerland-green);
+  }
+  
+  .cert-info p {
+    font-size: 1rem;
+    color: #555;
+  }
 
-.cert:hover {
-    transform: scale(1.1);
- }
  
 /* ----- PROJECTS -----*/
 .project-container {
@@ -554,7 +566,7 @@ fieldset {
     .profile {
         margin-top: 0;
         height: 85vh;
-        grid-column: 1 / span 3;
+        grid-column: 1 / span 2;
     } 
     
     .title {
@@ -584,13 +596,13 @@ fieldset {
    
 
     hr {
-        grid-column: 1 / span 3;
+        grid-column: 1 / span 2;
     }
 
     #about-me {
         display: grid;
-        height: 116vh;
-        grid-column: 1 / span 3;
+        height: 200vh;
+        grid-column: 1 / span 2;
         justify-items: center;
     }
 
@@ -612,22 +624,15 @@ fieldset {
         margin-right: 3rem;
     }
 
+
     .education {
-        display: grid;
-        grid-column: 1 / span 3;
-        height: 84vh;
+        width: 80%;
+        height: auto;
+        margin: 1em;
+        grid-row: 2;
+        grid-column: 1 / span 2;
     }
-
-    .desc {
-        width: 70%;
-        grid-column: 1 / span 1;
-        margin-left: 2em;
-        font-size: 24px;
-    }
-
-    .cert {
-        grid-column: 2 / span 1;
-    }
+   
 
     .modal {
         width: 30%;
@@ -638,7 +643,7 @@ fieldset {
         grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
         gap: 1rem;
         padding-top: 70px;
-        grid-column: 1 / span 3;
+        grid-column: 1 / span 2;
     }
 
     .project-text {
@@ -655,13 +660,13 @@ fieldset {
         display: grid;
         padding-left: 2em;
         height: auto;
-        grid-column: 1 / span 3;
+        grid-column: 1 / span 2;
     }
 
     footer {
         flex-direction: row;
         height: 9vh;
-        grid-column: 1 / span 3;
+        grid-column: 1 / span 2;
     }
 
     .cv {
@@ -702,7 +707,7 @@ fieldset {
     }
 
     #about-me {
-        height: 84vh;
+        height: 180vh;
     }
 
     .story-title {
