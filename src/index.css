@@ -601,7 +601,7 @@ fieldset {
 
     #about-me {
         display: grid;
-        height: 200vh;
+        height: 179vh;
         grid-column: 1 / span 2;
         justify-items: center;
     }
@@ -616,6 +616,7 @@ fieldset {
    
     .story {
         width: 80%;
+        height: auto;
         font-size: 22px;
         line-height: 22px;
         margin: 3em;
@@ -694,7 +695,7 @@ fieldset {
     }
 }
 
-/* ----- MEDIA 992px -----*/
+/* ----- MEDIA 1024px -----*/
 @media (min-width: 1024px) {
 
     .navlist {
@@ -707,7 +708,7 @@ fieldset {
     }
 
     #about-me {
-        height: 180vh;
+        height: 179vh;
     }
 
     .story-title {
@@ -721,7 +722,7 @@ fieldset {
     }
 
     .story {
-        width: 60%;
+        width: 80%;
     }
 
     .box {
@@ -730,7 +731,7 @@ fieldset {
 }
 
 
-/* ----- MEDIA  height 992px -----*/
+/* ----- MEDIA  height 450px -----*/
 @media ( max-height: 450px) {
     .profile,
     #about-me,
