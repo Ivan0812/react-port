@@ -49,12 +49,3 @@ export const IconGitHub = () => (
 );
 
 
-const Icons = {
-    IconReact,
-    IconGit,
-    IconCss,
-    IconJavaScript,
-    IconGitHub
-  };
-  
-  export default Icons;

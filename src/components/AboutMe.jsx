@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import { IconReact, IconJavaScript, IconCss, IconGit, IconGitHub } from './Icons';
+import { IconReact, IconJavaScript, IconCss, IconGit, IconGitHub } from './Icons.jsx';
 import Footer from './Footer';
 import Cert from '../assets/images/cert.jpg';
 
