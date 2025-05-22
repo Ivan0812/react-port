@@ -49,3 +49,4 @@ export const IconGitHub = () => (
 );
 
 
+export default {};
