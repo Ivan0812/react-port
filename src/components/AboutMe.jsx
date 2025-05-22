@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
+import { IconReact, IconJavaScript, IconCss, IconGit, IconGitHub } from './Icons';
 import Footer from './Footer';
 import Cert from '../assets/images/cert.jpg';
 
@@ -23,6 +24,7 @@ function AboutMe() {
             <h2 className="story-title">About</h2>
             <span className="me">me</span>
           </div>
+         
         </div>
 
         <div className="story">
@@ -37,7 +39,13 @@ function AboutMe() {
             I enjoy building clean, responsive, and user-friendly interfaces. I´m currently looking for my first opportunity as a Junior Frontend Developer, where I can continue learning and contribute to real-world projects.
           </p>
           <p>
-            Technologies I’m comfortable with: React, JavaScript (ES6), CSS3, Git, GitHub.
+            Technologies I’m comfortable with: <div className="tech-icon">
+        < IconReact />
+        < IconJavaScript />
+        < IconCss />
+        < IconGit />
+        < IconGitHub />
+        </div>
           </p>
         </div>
 
