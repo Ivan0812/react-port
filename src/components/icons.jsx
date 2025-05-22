@@ -1,4 +1,6 @@
+/* eslint-disable no-unused-vars */
 
+import React from 'react';
 const iconProps = {
   width: 45,
   height: 45,

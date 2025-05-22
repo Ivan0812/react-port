@@ -6,7 +6,6 @@ import Profile from './components/Profile';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
-import { IconReact, IconJavaScript, IconCss, IconGit, IconGitHub } from './components/Icons';
 
 function App() {
   return (
