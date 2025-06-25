@@ -11,7 +11,7 @@ import imgP6 from '../assets/images/project6.png';
 const projectData = [
   {
     title: "Retro90",
-    description: "Retro90 is a modern web application inspired by iconic movies from the 80s and 90s. The website was created with the support of artificial intelligence to ensure high-quality design, features, and user experience. This project was built using React for the frontend, Tailwind CSS for styling, and the TMDB API for retrieving movie data in real-time. AI assistance (ChatGPT) was used throughout the development process – from designing the structure and writing code to improving UX and solving technical challenges. The application does not use a backend or database; instead, it relies entirely on the TMDB API to display up-to-date information.",
+    description: "Retro90 is a web app that showcases movies from the 1980s and 1990s using the TMDB API. Users can search for classic titles, view ratings, and open detailed movie information in a sleek modal. Built with React, styled with Tailwind CSS, and enhanced with Framer Motion animations, the project blends retro aesthetics with modern UI/UX for a nostalgic browsing experience.",
     image: imgP6,
     link: "https://retronineties.netlify.app/",
     alt: "Retro90 Project"
