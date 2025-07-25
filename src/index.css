@@ -758,12 +758,9 @@ fieldset {
 
 /* ----- MEDIA  height 450px -----*/
 @media ( max-height: 450px) {
+
     .profile,
     #about-me,
-    .education  {
-        height: 150vh;
-    }
-
     .projects {
         height: auto;
     }
@@ -771,6 +768,11 @@ fieldset {
     .story {
        font-size: 10px;
    }
+
+   .education {
+   
+    margin-bottom: 4rem;
+  }
 
     .footer {
         height: 13vh;
