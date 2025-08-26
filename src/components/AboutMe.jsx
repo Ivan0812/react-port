@@ -52,7 +52,7 @@ function AboutMe() {
 
         <div className="education">
           <div className="cert-container">
-            <img className="cert" src={Cert} alt="Treehouse Front-End Web Development Certificate" />
+            <img className="cert" src={Cert} alt="Treehouse Front-End Web Development Certificate" loading='lazy' />
             <div className="cert-info">
               <h3>Treehouse Techdegree</h3>
               <p>Front-End Web Development Certificate</p>

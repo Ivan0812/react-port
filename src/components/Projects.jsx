@@ -63,7 +63,7 @@ function Projects() {
             <article key={index} className='project-item'>
               <a className='box' href={project.link} target="_blank" rel='noopener noreferrer' >
               {project.title}
-              <img className='project-image' src= {project.image} alt={project.alt} />
+              <img className='project-image' src= {project.image} alt={project.alt} loading='lazy' />
                 
                 <p className="project-text">{project.description}</p>
                 </a>
