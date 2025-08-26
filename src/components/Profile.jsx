@@ -25,7 +25,7 @@ function Profile() {
           className={`my-img ${isImageLoaded ? 'loaded' : ''}`}
           src={profileImage}
           alt="Ivan K"
-          loading="lazy"
+          loading="eager"
           onLoad={() => setIsImageLoaded(true)}
         />
         <ul className="contact-list">
