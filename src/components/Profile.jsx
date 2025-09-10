@@ -25,7 +25,7 @@ function Profile() {
           className={`my-img ${isImageLoaded ? 'loaded' : ''}`}
           src={profileImage}
           alt="Ivan K"
-          loading="eager"
+          loading="lazy"
           onLoad={() => setIsImageLoaded(true)}
         />
       </div>
