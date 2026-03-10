@@ -17,10 +17,10 @@ function Profile() {
   return (
     <>
       <div className="profile" ref={profileRef}>
-        <div className="title">
-          <h1>Hi, My name is Ivan Kovacevic</h1>
-          <h2>Aspiring Frontend Developer</h2>
-        </div>
+      <div className="title">
+  <h1>Hi, I`m Ivan Kovačević</h1>
+  <h2> Web Developer!</h2>
+</div>
         <img
           className={`my-img ${isImageLoaded ? 'loaded' : ''}`}
           src={profileImage}

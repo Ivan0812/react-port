@@ -28,16 +28,19 @@ function AboutMe() {
         </div>
 
         <div className="story">
-          <p>
-            Hello! My name is Ivan Kovačević. Originally from Croatia, I’ve been living in Germany for the past 10 years with my partner and two children.
-            While working in the service industry, I discovered a passion for web development and started learning in my spare time.
-            Over the years, I completed numerous courses focused on front-end development and eventually enrolled in the Treehouse Techdegree program.
-            After a year of consistent learning and building projects, I successfully earned a certificate.
-          </p>
-          <p>
-            I’m a self-taught front-end developer with a solid understanding of HTML, CSS, JavaScript, and React.
-            I enjoy building clean, responsive, and user-friendly interfaces. I’m currently looking for my first opportunity as a Junior Frontend Developer, where I can continue learning and contribute to real-world projects.
-          </p>
+        <p>
+    I am a self-taught front-end developer with a strong focus on building clean, responsive and user-friendly web applications.
+    My core technologies include HTML, CSS, JavaScript and React.
+  </p>
+
+  <p>
+    During my learning journey I completed several development courses and successfully finished the Treehouse Front-End Techdegree program, where I built multiple projects and strengthened my understanding of modern web development practices.
+  </p>
+
+  <p>
+    I enjoy turning ideas into functional interfaces and continuously improving my skills by building real-world projects.
+    I am currently looking for my first opportunity as a Junior Frontend Developer where I can grow as a developer and contribute to meaningful products.
+  </p>
           <div>
             Technologies I’m comfortable with:
             <div className="tech-icon">
