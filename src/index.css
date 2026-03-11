@@ -554,10 +554,10 @@ footer {
     transform: translate(-50%, -50%);
     background-color: var(--emerland-green);
     color: var(--white);
-    z-index: 1;
-    overflow-y: scroll;
+    z-index: 1000;
+    overflow-y: auto;
     box-shadow: 0 8px 16px #000000a4;
-    transition: opacity 0.5s, transform 0.5s;
+    max-height: 90vh;
 }
 
 form {
@@ -596,16 +596,13 @@ fieldset {
  }
 
 
-    .overlay {
-    display: none;
+ .overlay {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    inset: 0;
     background-color: rgba(0, 0, 0, 0.7);
-    z-index: 0;
-} 
+    z-index: 999;
+  }
+  
 
 
 /* ----- CLOSE BUTTON ----- */
@@ -617,12 +614,12 @@ fieldset {
     height: 2rem;
     width: 2rem;
     font-size: 24px;
-    position: relative;
     cursor: pointer;
     box-shadow: 0 8px 16px #000000a4;
-    border-radius: 5px; 
-    left: 88%;
-}
+    border-radius: 5px;
+    margin-left: auto;
+    display: block;
+  }
 
 
 .closecontact:hover {

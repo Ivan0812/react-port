@@ -14,7 +14,11 @@ const Footer = () => {
   return (
     <footer id="contactMe" className="footer">
       <div className="contact">
-        <span className="contact-button" onClick={openModal}>Contact me!</span>
+      <button type="button" className="contact-button" onClick={openModal}>
+  Contact me!
+</button>
+
+{isModalOpen && <ContactModal closeModal={closeModal} />}
         {isModalOpen && <ContactModal closeModal={closeModal} />}
          <Cv />
       </div>
