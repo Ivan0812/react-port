@@ -551,6 +551,7 @@ footer {
     width: 90%;
     top: 50%;
     left: 50%;
+    border-radius: 6px;
     transform: translate(-50%, -50%);
     background-color: var(--emerland-green);
     color: var(--white);
